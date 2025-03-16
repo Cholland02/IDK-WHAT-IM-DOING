@@ -1,0 +1,5 @@
+price = input("What is the price of a cup of coffee? ").strip()
+cups = input("How many cups of coffee do you want to buy? ").strip()
+total = float(price) * int(cups)    
+print("Your total is $" + str(total) + " For " + str(cups) + " cups of coffee")
+print("Thank you for your purchase!")   
